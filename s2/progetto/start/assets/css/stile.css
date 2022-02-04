@@ -1,0 +1,197 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+
+/* MAIN */
+
+@font-face {
+    font-family: FiraSans;
+    src: url(../webfonts/FiraSans-Light.ttf);
+}
+
+
+
+body {
+    color: #000;
+    font-size: 1.5rem;
+    font-family: FiraSans;
+}
+
+main section:first-child {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-shadow: 1px 1px black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+h1+p {
+    text-shadow: 1px 1px black;
+    color: white;
+    line-height: 25px;
+    text-shadow: black;
+    padding-left: 10px;
+
+}
+
+button {
+    background: linear-gradient(#6cc1e2, #392f7a);
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+}
+
+h2+p {
+    text-align: center;
+    line-height: 30px;
+
+}
+
+section:nth-child(3) {
+    color: white;
+    text-align: center;
+    background-color: rgb(11, 11, 87);
+    padding: 50px 40px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+
+}
+
+h3+p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+i {
+    color: red;
+}
+
+p>i {
+    color: #000;
+}
+
+
+/* FOOTER */
+
+h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.icone {
+    font-size: 35px;
+    margin-bottom: 40px;
+
+}
+
+footer {
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 80%;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .bottone {
+        display: inline;
+        display: none;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:1200px) {
+
+    header {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .bordo {
+        border: #000 solid 5px;
+        margin-left: 60px;
+    }
+
+    ul {
+        display: inline;
+        display: flex;
+        align-items: center;
+
+    }
+
+    p {
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    h1 {
+        margin-left: 50px;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    h3+p {
+        text-align: left;
+    }
+
+    .flex3 {
+        display: flex;
+    }
+
+    .float {
+        float: left;
+        margin-bottom: 50px;
+        margin-right: 20px;
+    }
+
+    footer {
+        clear: left;
+    }
+}
+
+
+
+
+
+/* RESPONSIVE */
