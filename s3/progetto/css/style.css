@@ -1,0 +1,26 @@
+section,
+main {
+  padding-top: 30px; }
+
+svg {
+  margin: 30px; }
+
+.carosello {
+  padding-bottom: 30px; }
+
+nav {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: #000;
+  text-align: center; }
+
+footer {
+  background-color: #f8d1f6;
+  color: #000;
+  text-align: center; }
+
+button {
+  border: 30px;
+  margin-bottom: 30px;
+  background-color: darkmagenta;
+  color: white;
+  border-radius: 10%; }

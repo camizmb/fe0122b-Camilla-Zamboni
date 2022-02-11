@@ -1,0 +1,41 @@
+@import "function";
+
+$misura: 30px;
+$bg-color-dark: rgba(0, 0, 255, 0.5);
+$bg-color-light: rgb(248, 209, 246);
+
+
+section,
+main {
+    padding-top: $misura;
+
+}
+
+svg {
+    margin: $misura;
+}
+
+.carosello {
+    padding-bottom: $misura;
+
+}
+
+nav {
+    background-color: $bg-color-dark;
+    color: color-contrast($bg-color-dark);
+    text-align: center;
+}
+
+footer {
+    background-color: $bg-color-light;
+    color: color-contrast($bg-color-light);
+    text-align: center;
+}
+
+button {
+    border: $misura;
+    margin-bottom: $misura;
+    background-color: darkmagenta;
+    color:white;
+    border-radius: 10%;
+}

@@ -1,0 +1,10 @@
+@function color-contrast($colore) {
+    @if (lightness(#777) <50) {
+        @return #000;
+
+    }
+
+    @else {
+        @return #fff;
+    }
+}
