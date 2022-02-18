@@ -1,5 +1,6 @@
 #calcolatrice {
     margin-left: 30px;
+    text-align: center;
 }
 
 h1 {
@@ -18,12 +19,52 @@ h1 {
     margin: 4px 2px;
     height: 40px;
     width: 46px;
+   
 }
+#tastierino1>div{
+    display: inline-block;
+    text-align: center;
+    background-color: #70d3ad;
+    color: #0e0101;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 22pt;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+
+#tastierino2>div {
+    display: inline-block;
+    text-align: center;
+    background-color: #70d3ad;
+    color: #0e0101;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 22pt;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+
+#tastierino3>div {
+    display: inline-block;
+    text-align: center;
+    background-color: #70d3ad;
+    color: #0e0101;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 22pt;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+ 
 
 #display {
     padding-bottom: 10px;
     margin-bottom: 5px;
-    width: 80%;
+    width: 200px;
     font-style: oblique;
     font-size: 22px;
     text-align: right;
@@ -33,10 +74,11 @@ h1 {
 #uguale {
     display: inline-block;
     margin-top: 5px;
+ 
     text-align: center;
     background-color: #70d3ad;
     color: #0e0101;
     font-weight: bold;
     font-size: 35px;
-    width: 85%;
+    width:200px;
 }
