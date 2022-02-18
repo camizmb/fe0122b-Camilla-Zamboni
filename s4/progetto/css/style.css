@@ -1,0 +1,42 @@
+#calcolatrice {
+    margin-left: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #70d3ad;
+}
+
+#tastierino>div {
+    display: inline-block;
+    text-align: center;
+    background-color: #70d3ad;
+    color: #0e0101;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 22pt;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+
+#display {
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    width: 80%;
+    font-style: oblique;
+    font-size: 22px;
+    text-align: right;
+    border: solid;
+}
+
+#uguale {
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #70d3ad;
+    color: #0e0101;
+    font-weight: bold;
+    font-size: 35px;
+    width: 85%;
+}

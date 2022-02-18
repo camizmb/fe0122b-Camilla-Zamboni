@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Calcolatrice</h1>
+    <div id="calcolatrice">
+        <input type="text" id="display">
+        <div id="tastierino">
+            <div id="7" onclick="prendiDato(this)">7</div>
+            <div id="8" onclick="prendiDato(this)">8</div>
+            <div id="9" onclick="prendiDato(this)">9</div>
+            <div id="/" onclick="prendiDato(this)">/</div>
+            <div id="4" onclick="prendiDato(this)">4</div>
+            <div id="5" onclick="prendiDato(this)">5</div>
+            <div id="6" onclick="prendiDato(this)">6</div>
+            <div id="*" onclick="prendiDato(this)">x</div>
+            <div id="1" onclick="prendiDato(this)">1</div>
+            <div id="2" onclick="prendiDato(this)">2</div>
+            <div id="3" onclick="prendiDato(this)">3</div>
+            <div id="-" onclick="prendiDato(this)">-</div>
+            <div id="C" onclick="resetCalcolatrice()">C</div>
+            <div id="0" onclick="prendiDato(this)">0</div>
+            <div id="." onclick="prendiDato(this)">.</div>
+            <div id="+" onclick="prendiDato(this)">+</div>
+        </div>
+        
+        <div id="uguale" onclick="totale()">=</div>
+    </div>
+
+    <script>
+        function prendiDato(dato) {
+            let display = document.getElementById('display')
+            let numero = dato.id
+            let attualeValore = display.value;
+
+            display.value += numero
+        }
+
+        function resetCalcolatrice() {
+            document.getElementById('display').value = ''
+        }
+
+        function totale() {
+            let display = document.getElementById('display')
+            display.value = eval(display.value)
+        }
+
+
+    </script>
+</body>
+
+</html>
